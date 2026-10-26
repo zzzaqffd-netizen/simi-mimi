@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Simi Mimi — a modern digital experience for playful, creative, and smart online presence." />
+    <title>Simi Mimi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <a href="#home" class="brand" aria-label="Simi Mimi home">
+          <span class="brand-mark">S</span>
+          <span>Simi Mimi</span>
+        </a>
+
+        <nav class="menu" aria-label="Main navigation">
+          <a href="#features" data-i18n="navFeatures">Features</a>
+          <a href="#about" data-i18n="navAbout">About</a>
+          <a href="#gallery" data-i18n="navGallery">Gallery</a>
+          <a href="#pricing" data-i18n="navPricing">Pricing</a>
+          <a href="#contact" data-i18n="navContact">Contact</a>
+        </nav>
+
+        <div class="lang-switch" aria-label="Language selector">
+          <button class="lang-btn active" data-lang="en" type="button">EN</button>
+          <button class="lang-btn" data-lang="uk" type="button">UA</button>
+          <button class="lang-btn" data-lang="ru" type="button">RU</button>
+          <button class="lang-btn" data-lang="de" type="button">DE</button>
+        </div>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="pill" data-i18n="heroPill">Creative digital studio</span>
+            <h1 data-i18n="heroTitle">Make your brand feel vibrant, modern, and memorable.</h1>
+            <p data-i18n="heroText">
+              We design playful experiences, polished digital products, and smart visuals that help people remember you.
+            </p>
+            <div class="actions">
+              <a href="#contact" class="btn btn-primary" data-i18n="heroPrimary">Book a project</a>
+              <a href="#features" class="btn btn-secondary" data-i18n="heroSecondary">Explore services</a>
+            </div>
+            <ul class="social-proof" aria-label="Key metrics">
+              <li><strong>120+</strong><span data-i18n="metricDesigns">Designs shipped</span></li>
+              <li><strong>4.9/5</strong><span data-i18n="metricRating">Client rating</span></li>
+              <li><strong>24h</strong><span data-i18n="metricSupport">Fast support</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-card">
+            <div class="preview-window">
+              <div class="window-topbar">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="window-body">
+                <div class="mini-card mini-card--main">
+                  <span class="mini-label" data-i18n="cardLabel">Launch campaign</span>
+                  <strong data-i18n="cardTitle">Spring lookbook</strong>
+                </div>
+                <div class="mini-grid">
+                  <div class="mini-card mini-card--soft">
+                    <span>+42%</span>
+                    <small data-i18n="cardGrowth">engagement</small>
+                  </div>
+                  <div class="mini-card mini-card--soft">
+                    <span>8.4k</span>
+                    <small data-i18n="cardViews">monthly views</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="section">
+        <div class="container">
+          <div class="section-head">
+            <span class="eyebrow" data-i18n="featuresEyebrow">What we do</span>
+            <h2 data-i18n="featuresTitle">Everything you need to stand out online.</h2>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="icon">✦</div>
+              <h3 data-i18n="feature1Title">Brand Identity</h3>
+              <p data-i18n="feature1Text">Packaging, visuals, and voice system built around your story.</p>
+            </article>
+            <article class="feature-card">
+              <div class="icon">⚡</div>
+              <h3 data-i18n="feature2Title">Fast Websites</h3>
+              <p data-i18n="feature2Text">Landing pages and online experiences built to convert and delight.</p>
+            </article>
+            <article class="feature-card">
+              <div class="icon">◎</div>
+              <h3 data-i18n="feature3Title">Creative Strategy</h3>
+              <p data-i18n="feature3Text">Campaign concepts, storytelling flow, and digital positioning.</p>
+            </article>
+            <article class="feature-card">
+              <div class="icon">▣</div>
+              <h3 data-i18n="feature4Title">Launch Support</h3>
+              <p data-i18n="feature4Text">Hands-on support to get your launch moving in the right direction.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section alt-bg">
+        <div class="container about-grid">
+          <div>
+            <span class="eyebrow" data-i18n="aboutEyebrow">Why choose us</span>
+            <h2 data-i18n="aboutTitle">Smart ideas, warm tone, and polished execution.</h2>
+            <p data-i18n="aboutText">
+              Simi Mimi blends strategy, design, and product thinking to help startups and ambitious brands feel clearer, stronger, and more human online.
+            </p>
+          </div>
+          <div class="stats-box">
+            <div>
+              <strong>7+</strong>
+              <span data-i18n="statYears">years crafting digital experiences</span>
+            </div>
+            <div>
+              <strong>33</strong>
+              <span data-i18n="statProjects">launches delivered</span>
+            </div>
+            <div>
+              <strong>95%</strong>
+              <span data-i18n="statRetention">returning clients</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery" class="section">
+        <div class="container">
+          <div class="section-head">
+            <span class="eyebrow" data-i18n="galleryEyebrow">Selected work</span>
+            <h2 data-i18n="galleryTitle">A few examples of our mood and style.</h2>
+          </div>
+
+          <div class="gallery-grid">
+            <div class="gallery-card card-a"></div>
+            <div class="gallery-card card-b"></div>
+            <div class="gallery-card card-c"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" class="section alt-bg">
+        <div class="container">
+          <div class="section-head">
+            <span class="eyebrow" data-i18n="pricingEyebrow">Pricing</span>
+            <h2 data-i18n="pricingTitle">Simple packages for growing brands.</h2>
+          </div>
+
+          <div class="pricing-grid">
+            <article class="price-card">
+              <span class="plan" data-i18n="planStarter">Starter</span>
+              <h3>$499</h3>
+              <ul>
+                <li data-i18n="planStarter1">Landing page</li>
+                <li data-i18n="planStarter2">Brand direction</li>
+                <li data-i18n="planStarter3">Basic SEO setup</li>
+              </ul>
+              <a href="#contact" class="btn btn-secondary" data-i18n="planStarterBtn">Start now</a>
+            </article>
+
+            <article class="price-card featured">
+              <span class="plan" data-i18n="planGrowth">Growth</span>
+              <h3>$999</h3>
+              <ul>
+                <li data-i18n="planGrowth1">Multi-section site</li>
+                <li data-i18n="planGrowth2">Campaign design</li>
+                <li data-i18n="planGrowth3">Optimization support</li>
+              </ul>
+              <a href="#contact" class="btn btn-primary" data-i18n="planGrowthBtn">Most popular</a>
+            </article>
+
+            <article class="price-card">
+              <span class="plan" data-i18n="planScale">Scale</span>
+              <h3>$1,799</h3>
+              <ul>
+                <li data-i18n="planScale1">Full product experience</li>
+                <li data-i18n="planScale2">Strategic creative direction</li>
+                <li data-i18n="planScale3">Launch consulting</li>
+              </ul>
+              <a href="#contact" class="btn btn-secondary" data-i18n="planScaleBtn">Talk to us</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="container contact-wrap">
+          <div>
+            <span class="eyebrow" data-i18n="contactEyebrow">Let’s build</span>
+            <h2 data-i18n="contactTitle">Tell us what you’re creating next.</h2>
+            <p data-i18n="contactText">We’d love to hear about your idea, your audience, and the feeling you want your brand to have.</p>
+          </div>
+          <form class="contact-form">
+            <input type="text" data-i18n-placeholder="formName" placeholder="Your name" />
+            <input type="email" data-i18n-placeholder="formEmail" placeholder="Email address" />
+            <textarea rows="5" data-i18n-placeholder="formMessage" placeholder="Tell us about your project"></textarea>
+            <button type="submit" class="btn btn-primary" data-i18n="formButton">Send inquiry</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-row">
+        <span>Simi Mimi</span>
+        <span data-i18n="footerText">Creative digital studio</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
